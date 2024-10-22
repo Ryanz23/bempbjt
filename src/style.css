@@ -289,12 +289,14 @@ section li img{
 
 .slider {
   position: relative;
-  max-width: 600px;
+  max-width: 650px;
   margin: auto;
   overflow: hidden;
+  display: inline-block;
 }
 
 .slides {
+  max-width: 650px;
   display: flex;
   transition: transform 0.5s ease;
   font-size: 10px;
